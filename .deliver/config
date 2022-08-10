@@ -2,16 +2,12 @@ APP="deploy_phoenix"
 
 BUILD_HOST="34.170.98.75"
 BUILD_USER="elixir_builder"
-# BUILD_AT="/home/$BUILD_USER/$APP/builds"
+BUILD_AT="/home/$BUILD_USER/$APP/builds"
 
-# # Default environment should be prod
-# # TARGET_MIX_ENV="prod"
+# Default environment should be prod
+TARGET_MIX_ENV="prod"
 
-# RELEASE_DIR="$BUILD_AT/$APP/_build/$TARGET_MIX_ENV/rel/$APP"
-
-BUILD_AT="/tmp/edeliver/$APP/builds"
-
-RELEASE_DIR="/tmp/edeliver/$APP/builds/_build/prod/rel/$APP"
+RELEASE_DIR="$BUILD_AT/$APP/_build/$TARGET_MIX_ENV/rel/$APP"
 
 # STAGING_HOSTS="34.170.98.75"
 # STAGING_USER="elixir_builder"
