@@ -4,6 +4,9 @@ BUILD_HOST="34.171.93.209"
 BUILD_USER="elixir_builder"
 BUILD_AT="/home/$BUILD_USER/$APP/builds"
 
+# Build errors when using distillery
+USING_DISTILLERY="false"
+
 # Default environment should be prod
 TARGET_MIX_ENV="prod"
 
